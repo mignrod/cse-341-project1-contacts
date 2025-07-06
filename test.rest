@@ -1,0 +1,22 @@
+// LOCALHOST
+### Get all the results of contacts
+GET http://localhost:3000/Contacts
+
+### Get contacts by ID
+GET http://localhost:3000/Contacts/6869ac4a726462ea43144a84
+
+//// It is not working POST and DELETE for now
+### Create a new contact
+POST http://localhost:3000/Contacts HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName":"Diego",
+    "lastName":"Rodriguez",
+    "email":"diegorodriguez@gmail.com",
+    "favoriteColor":"Black",
+    "Birthday":"December, 8"
+}
+
+### Delete Contacts
+DELETE http://localhost:3000/Contacts/6869ad23726462ea43144a89 HTTP/1.1
