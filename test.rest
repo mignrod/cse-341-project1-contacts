@@ -20,3 +20,8 @@ Content-Type: application/json
 
 ### Delete Contacts
 DELETE http://localhost:3000/Contacts/6869ad23726462ea43144a89 HTTP/1.1
+
+
+// PRODUCTION TEST
+### Get all contacts
+GET https://cse-341-project1-contacts.onrender.com/Contacts
