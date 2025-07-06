@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/mignrod/cse-341-project1-contacts#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "mongodb": "^6.17.0"
   }
 }
