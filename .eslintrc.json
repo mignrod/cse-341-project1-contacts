@@ -13,6 +13,9 @@
     "func-names": "off",
     "no-process-exit": "off",
     "object-shorthand": "off",
-    "class-methods-use-this": "off"
+    "class-methods-use-this": "off",
+    "prefer-destructuring": "off",
+    "import/order": "off",
+    "consistent-return": "off"
   }
 }
