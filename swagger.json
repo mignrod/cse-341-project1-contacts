@@ -5,9 +5,9 @@
     "description": "Contacts API by Mignrod",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "https://cse-341-project1-contacts.onrender.com",
   "basePath": "/",
-  "schemes": ["http", "https"],
+  "schemes": ["https"],
   "paths": {
     "/": {
       "get": {
