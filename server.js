@@ -29,8 +29,3 @@ mongodb.initDb((err) => {
     });
   }
 });
-
-app.listen(3000, () => {
-  res.send('Welcome to the Contacts API');
-  process.exit(1);
-});
