@@ -1,11 +1,8 @@
 const express = require('express');
-
 const bodyParser = require('body-parser');
-
 const mongodb = require('./db/database');
 
 const app = express();
-
 const port = process.env.PORT || 8080;
 
 app.use(bodyParser.json());
@@ -31,4 +28,9 @@ mongodb.initDb((err) => {
       console.log(`Database is listening and node Runnign on port ${port}`);
     });
   }
+});
+
+app.listen(3000, () => {
+  res.send('Welcome to the Contacts API');
+  process.exit(1);
 });
